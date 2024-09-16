@@ -1,3 +1,10 @@
+library(baseballr)
+library(ggforce)
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+
+
 ### MLB Extension/Release Point Plot ####
 
 ### Scrape data from September 5th ###
