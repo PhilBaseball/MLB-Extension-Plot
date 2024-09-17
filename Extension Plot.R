@@ -42,7 +42,7 @@ ggplot(data = pitcher_data,
   geom_circle(aes(x0=0, y0=1.5, r=9), color='#CC9966',
               fill='#CC9966', lwd= 1, inherit.aes=FALSE) +
   coord_fixed()+ geom_point(size = 5, pch = 21, color = "black") + 
-  scale_color_manual(values = c('FF' = 'red', 'CU' = 'darkgreen', 'SI' = '#f47b20',  'SL'='cornflowerblue',
+  scale_fill_manual(values = c('FF' = 'red', 'CU' = 'darkgreen', 'SI' = '#f47b20',  'SL'='cornflowerblue',
                                 'FC' = 'gold',  'CH'='violet', 'FS' = 'black', "KC" = "pink", "ST" = "cyan", "SC"= "green", "KN"= "darkgrey", "SV"= "purple"))+
   annotate(geom = "rect", xmin = -1, xmax = 1,ymin = -0.25,ymax = 0.25,color = "white", alpha = 1,size = 1,fill = c("white")) +
   annotate("text", x = 0, y = 14, label = "Home Plate This Way", color = "white", size = 5) + 
